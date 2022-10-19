@@ -22,6 +22,5 @@
           <sub><strong style="color: #fff;font-size: 25px">Saeed</strong></sub>
           <g-emoji class="g-emoji" style="font-size: 25px" alias="hugs" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f917.png">💻⚠️</g-emoji>
         </td>
-
     </tr>
 </table>
