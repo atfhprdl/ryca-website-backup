@@ -1,0 +1,37 @@
+* {
+    direction: rtl;
+}
+body {
+    background-color: rgb(234, 244, 253);
+}
+.centerItem {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.hero-background-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+header{
+    height: 100vh;
+}
+.btn {
+    padding:5px 20px;
+    border: none;
+    background-color: rgb(226, 69, 67);
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.txt-container{
+    position: relative;
+}
