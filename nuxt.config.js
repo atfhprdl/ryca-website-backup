@@ -9,7 +9,8 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'styleshet', type: 'text/css', href: 'https://use.fontawesome.com/releases/v5.7.0/css/all.css', integrity: 'sha384-IZN37f5QGtY3'}
     ]
   },
 

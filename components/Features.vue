@@ -32,7 +32,7 @@
                             <p class="email">support@ryca_team.com</p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 boxs">
                         <div class="contact">
                             <img src="../assets/img/call.png">
                             <p >۰۲۳-۲۲۰۴۷۸۸۵ - ۰۹۱۱۹۴۴۲۵۳۹</p>
@@ -65,6 +65,11 @@ export default {
 .contact {
     display: inline-flex;
     align-items: center;
+}
+.boxs {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(198, 234, 253);
 }
 .jobs-vector {
     margin:0px auto;

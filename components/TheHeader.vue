@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row centerItem">
         <div class="col-lg-6">
-            <div style="width:80%">
+            <!-- <div style="width:80%"> -->
                 <h1 class="font-black">
                     جایی که <span style="color: rgb(91, 157, 252);">نــوآوری</span><br> با دنیای واقعی روبرو می شود
             </h1>
@@ -11,8 +11,8 @@
                 ما راه حل های دیجیتالی ارائه می کنیم که استفاده و مدیریت آن ها آسان است و به راحتی قابل اعتماد هستند.
             </p>
             <button class="font-regular btn"> درباره ما </button>
-            </div>
-            <img class="wifi-icon" src="../assets/img/wifi-icon.svg" alt="">
+            <img class="wifi-icon" src="../assets/img/wifi-icon.svg" alt="wifi">
+            <img class="monitor-icon" src="../assets/img/monitor-icon.svg" alt="monitor">
          </div>
         <div class="col-lg-6">
             <img class="hero-vector" src="../assets/img/hero-vector.svg" alt="hero-vector">
@@ -43,12 +43,19 @@ export default {
 <style scoped>
 .wifi-icon {
     position: absolute;
-    width: 70px;
+    width: 40px;
     height: auto;
-        top: 30%;
-    right: 73%;
+    top: -40%;
+    right: 83%;
 }
 
+.monitor-icon {
+    position: absolute;
+    width: 45px;
+    height: auto;
+    top: 110%;
+    right: 60%;
+}
 .hero-vector {
     margin:0px auto;
     width: 450px;
@@ -58,9 +65,6 @@ h1 {
     color: rgb(6, 19, 68);
     font-size: 30px;
 }
-/* .wifi-icon {
-padding: 20px;
-} */
 .txt-container img {
     position: absolute;
     width: 30px;
