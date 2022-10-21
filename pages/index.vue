@@ -1,11 +1,11 @@
 <template>
-<div>
-  <NavBar />
-  <TheHeader />
-  <TheTeasers />
-  <Features />
-  <TheFooter />
-</div>
+  <div>
+    <NavBar />
+    <TheHeader />
+    <TheTeasers />
+    <Features />
+    <TheFooter />
+  </div>
 </template>
 
 <script>
