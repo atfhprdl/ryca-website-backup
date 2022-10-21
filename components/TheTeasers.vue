@@ -17,7 +17,7 @@
                 <p class="font-medium"><a href="#"> بیشتر بخوانید </a></p>
                 </div>
                 <div class="box-txt">
-            <img class="logo" src="../assets/img/carvann-logo.png">
+            <img class="logo centerite" src="../assets/img/carvann-logo.png">
             <p class="font-black">
                 کاروان، اتوماسیون حمل و نقل بار</p>
             <p class="font-regular">
