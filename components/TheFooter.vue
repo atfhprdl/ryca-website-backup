@@ -1,31 +1,36 @@
 <template>
-    <div>
-        <section class="demo">
-            <div class="social-icons-btn">
-  <a class="icons facebook"  href="">
-    <ion-icon name="logo-facebook"></ion-icon>
-  </a>
-  <a class="icons instagram"  href="">
-    <ion-icon name="logo-instagram"></ion-icon>
-  </a>
-  <a class="icons linkedin"  href="">
-    <ion-icon name="logo-linkedin"></ion-icon>
-  </a>
-                <div>
-                    <span><i class="fa fa-twitter"></i></span>
-                    <span><i class="fa fa-instagram"></i></span>
-                    <span><i class="fa fa-whatsapp"></i></span>
-                    <ul class="font-regular ftr">
-                        <li> درباره ما </li>
-                        <li> خدمات </li>
-                        <li> دستاوردها </li>
-                        <li> تماس با ما </li>
-                    </ul>
-                    <img class="ryca-logo" src="../assets/img/ryca-logo.png" alt="logo">
-                </div>
-            </div>
-            </section>
+  <footer>
+    <div class="container">
+      <div class="row centerItem">
+        <div class="col-lg-4">
+          <div class="logos">
+            <div class="logo"></div>
+            <div class="logo"></div>
+            <div class="logo"></div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="menu-container">
+            <a href="#">
+              <p class="font-regular">درباره ما</p>
+            </a>
+            <a href="#">
+              <p class="font-regular">خدمات</p>
+            </a>
+            <a href="#">
+              <p class="font-regular">دستاوردها</p>
+            </a>
+            <a href="#">
+              <p class="font-regular">تماس با ما</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <img class="header-logo" src="../assets/img/ryca-logo.png" alt="logo" />
+        </div>
+      </div>
     </div>
+  </footer>
 </template>
 
 <script>
@@ -35,56 +40,30 @@ export default {
 </script>
 
 <style scoped>
-.ftr {
-    display: contents;
-    list-style-type: none;
-    font-size: 13px;
+footer{
+  margin-top: 20px;
 }
-.ryca-logo {
-    height:20px;
+.logo {
+  background-color: #9FC2FF;
+  width: 35px;
+  height: 35px;
+  border-radius: 150px;
+  margin-left: 20px;
 }
-.demo div {
-    width: 100%;
-    height: 100px;
-    justify-content: space-around;
-}
-* {
-  display: flex;
+
+.logos {
   justify-content: space-around;
-  align-items: center;
+  display: inline-flex;
 }
-.social-icons-btn {
-  display: flex;
+.menu-container {
+  display: inline-flex;
+  justify-content:space-between;
+  flex-direction: row;
+  width: 100%;
 }
-.icons {
-  width: 20px;
-  height: 20px;
-  font-size: 2.5rem;
-  font-weight: 500;
-  text-decoration: none;
-  background: rgb(161, 195, 252);
-  margin: 0.2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  box-shadow: 0 2px 2px #d1d1d1;
-  color: #000;
-  cursor: pointer;
-  transition:
-    all 0.15s ease;
-}
-.twitter:hover {
-  background: #00ECEE;
-}
-.facebook:hover {
-  background: #4267B2;
-}
-.instagram:hover {
-  background-image:
-    linear-gradient(#8a3ab9,#e95950, #bc2a8d, #fccc63);
-}
-.linkedin:hover {
-  background: #0A66C2;
+img {
+  float: left;
+  width: 40%;
+  height: auto;
 }
 </style>
